@@ -1,6 +1,6 @@
 {
   "name": "bingo.js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Play the classic game of bingo in your discord.js bot!",
   "main": "./dist/index.js",
   "scripts": {
