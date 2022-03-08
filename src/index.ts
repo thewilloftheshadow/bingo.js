@@ -19,4 +19,4 @@ class Bingo {
     }
 }
 
-export default Bingo
+export { Bingo, Cage, Ball }
