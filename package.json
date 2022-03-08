@@ -1,0 +1,46 @@
+{
+  "name": "bingo.js",
+  "version": "0.0.1",
+  "description": "Play the classic game of bingo in your discord.js bot!",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npx tsc && node",
+    "docs": "typedoc",
+    "serve-docs": "npm run docs && npx serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thewilloftheshadow/bingo.js.git"
+  },
+  "keywords": [
+    "bingo",
+    "discord.js",
+    "discord"
+  ],
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "author": "Shadow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thewilloftheshadow/bingo.js/issues"
+  },
+  "homepage": "https://github.com/thewilloftheshadow/bingo.js#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "shuffle-array": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/shuffle-array": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "typedoc": "^0.22.13",
+    "typescript": "^4.6.2"
+  }
+}
