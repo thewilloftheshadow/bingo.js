@@ -1,6 +1,7 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 /* eslint-disable no-console */
 
-import Bingo from "./dist"
+const { Bingo } = require("./dist")
 
 const b = new Bingo()
 
